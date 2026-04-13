@@ -289,6 +289,11 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1 &768336285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4335157639803988956, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
+  m_PrefabInstance: {fileID: 990348063}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &952466820
 Mesh:
   m_ObjectHideFlags: 0
@@ -663,13 +668,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4335157639803988956, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 990348065}
   m_SourcePrefab: {fileID: 100100000, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
 --- !u!4 &990348064 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4335157639803988949, guid: 079d8e1325f92924690275cc28f21b1b, type: 3}
   m_PrefabInstance: {fileID: 990348063}
   m_PrefabAsset: {fileID: 0}
+--- !u!75 &990348065
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768336285}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: -10}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1133003272
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,17 +723,17 @@ MonoBehaviour:
   CameraDistance: 30
   DeadZoneDepth: 0
   Composition:
-    ScreenPosition: {x: 0, y: -0.15}
+    ScreenPosition: {x: 0.000000014901161, y: -0.15000015}
     DeadZone:
       Enabled: 1
-      Size: {x: 0.2, y: 0.2}
+      Size: {x: 0.4, y: 0.25}
     HardLimits:
-      Enabled: 0
-      Size: {x: 0.8, y: 0.8}
-      Offset: {x: 0, y: 0}
+      Enabled: 1
+      Size: {x: 0.8, y: 0.59941584}
+      Offset: {x: 0, y: 0.24}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 1, y: 1, z: 1}
+  Damping: {x: 0.4, y: 0.4, z: 0.4}
   Lookahead:
     Enabled: 0
     Time: 0
