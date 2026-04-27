@@ -15,6 +15,15 @@ public class PlayerControl : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
+    private void OnEnable()
+    {
+        Obstacle.OnPlayerHit += TakeDamage;
+    }
+
+    void TakeDamage()
+    {
+        Debug.Log("PLAYER GOT HURT");
+    }
 
     /*private void OnDrawGizmos()
     {
