@@ -40,6 +40,5 @@ public class GameManager : MonoBehaviour
     {
         if (racing)
             raceTime = DateTime.Now - raceStart + penaltyTime;
-        Debug.Log("Race Time " + raceTime);
     }
 }

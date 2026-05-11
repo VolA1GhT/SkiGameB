@@ -34,6 +34,11 @@ public class PlayerControl : MonoBehaviour
         Obstacle.OnPlayerHit += TakeDamage;
     }
 
+    private void OnDisable()
+    {
+        Obstacle.OnPlayerHit -= TakeDamage;
+    }
+
     void TakeDamage()
     {
         rb.AddForce(pushbackForce);
