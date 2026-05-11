@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
 
     private IEnumerator FadeOutOverlay()
     {
-        while(screenOverlay.alpha > 0)
+        while (screenOverlay.alpha > 0)
         {
             screenOverlay.alpha -= Time.deltaTime * fadeSpeed;
             yield return null;

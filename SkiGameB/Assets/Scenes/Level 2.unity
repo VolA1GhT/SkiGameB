@@ -2060,11 +2060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc97c42e542b5bd44a90cf1129239410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartFlag
---- !u!1 &970933705 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6564981166728425805, guid: 49ee210ac0510844d8da858708681a45, type: 3}
-  m_PrefabInstance: {fileID: 1306123530}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &974258936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4101,6 +4096,28 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!114 &1241757147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4151693465651222135, guid: 49ee210ac0510844d8da858708681a45, type: 3}
+  m_PrefabInstance: {fileID: 1306123530}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1241757148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3573970961513291576, guid: 49ee210ac0510844d8da858708681a45, type: 3}
+  m_PrefabInstance: {fileID: 1306123530}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1273401811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,7 +4207,7 @@ PrefabInstance:
     - target: {fileID: 6564981166389357953, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1306123533}
+      objectReference: {fileID: 1306123531}
     - target: {fileID: 6564981166389357953, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Quit
@@ -4202,7 +4219,7 @@ PrefabInstance:
     - target: {fileID: 6564981166553636942, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1306123533}
+      objectReference: {fileID: 1306123531}
     - target: {fileID: 6564981166553636942, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextLevel
@@ -4301,7 +4318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6564981167525259486, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6564981167606150081, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_IsActive
@@ -4310,7 +4327,7 @@ PrefabInstance:
     - target: {fileID: 6564981168225664803, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1306123533}
+      objectReference: {fileID: 1306123531}
     - target: {fileID: 6564981168225664803, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Restart
@@ -4319,14 +4336,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8729059178325304969, guid: 49ee210ac0510844d8da858708681a45, type: 3}
+      propertyPath: screenOverlay
+      value: 
+      objectReference: {fileID: 1306123536}
     m_RemovedComponents:
     - {fileID: 6564981168130238409, guid: 49ee210ac0510844d8da858708681a45, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6564981167228359830, guid: 49ee210ac0510844d8da858708681a45, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1306123533}
     - targetCorrespondingSourceObject: {fileID: 6564981167525259486, guid: 49ee210ac0510844d8da858708681a45, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1306123536}
@@ -4334,32 +4352,22 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1306123534}
   m_SourcePrefab: {fileID: 100100000, guid: 49ee210ac0510844d8da858708681a45, type: 3}
---- !u!1 &1306123531 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6564981167228359830, guid: 49ee210ac0510844d8da858708681a45, type: 3}
-  m_PrefabInstance: {fileID: 1306123530}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1306123532 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6564981168130238408, guid: 49ee210ac0510844d8da858708681a45, type: 3}
-  m_PrefabInstance: {fileID: 1306123530}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1306123533
+--- !u!114 &1306123531 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8729059178325304969, guid: 49ee210ac0510844d8da858708681a45, type: 3}
+  m_PrefabInstance: {fileID: 1306123530}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306123531}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e01994a26da41734491e2fde2d99d94b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  screenOverlay: {fileID: 1306123536}
-  fadeSpeed: 1
-  raceOverPanel: {fileID: 970933705}
-  nextLevelIndex: 1
+--- !u!1 &1306123532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6564981168130238408, guid: 49ee210ac0510844d8da858708681a45, type: 3}
+  m_PrefabInstance: {fileID: 1306123530}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1306123534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5577,6 +5585,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   penaltyValue: 3
+  raceTimeText: {fileID: 1241757148}
+  bestTimeText: {fileID: 1241757147}
+  bestTimeKey: LVL2BestTime
 --- !u!4 &1921207964
 Transform:
   m_ObjectHideFlags: 0
