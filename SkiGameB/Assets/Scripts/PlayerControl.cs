@@ -7,6 +7,7 @@ public class PlayerControl : MonoBehaviour
     private InputAction move;
     [SerializeField] private float rotSpeed = 60;
     [SerializeField] private float speed = 60;
+    public static Transform player;
 
 
     [SerializeField] private bool grounded = true;
@@ -25,6 +26,7 @@ public class PlayerControl : MonoBehaviour
     {
         move = InputSystem.actions.FindAction("Player/Move");
         rb = GetComponent<Rigidbody>();
+        player = transform;
     }
 
     private void OnEnable()
