@@ -20,10 +20,12 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private bool disabledControl = false;
     [SerializeField] private float disableTime;
     private float lastCollisionTime;
+    private Animator animator;
 
 
     void Awake()
     {
+        animator = GetComponent<Animator>();
         move = InputSystem.actions.FindAction("Player/Move");
         rb = GetComponent<Rigidbody>();
         player = transform;
@@ -80,5 +82,7 @@ public class PlayerControl : MonoBehaviour
         rb.AddForce(transform.forward * speed * speedMult * Time.fixedDeltaTime);
         //Debug.Log("turn angle: " + turnAngle);
         }
+        animator.SetFloat("playerSpeed", rb.linearVelocity.magnitude);
+        animator.SetBool("grounded", grounded);
     }
 }
