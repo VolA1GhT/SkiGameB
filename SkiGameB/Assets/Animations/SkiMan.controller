@@ -35,7 +35,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: playerSpeed
-    m_EventTreshold: 12
+    m_EventTreshold: 10
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6411847619729145545}
   m_Solo: 0
@@ -45,7 +45,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25914314
   m_TransitionOffset: 0
   m_ExitTime: 0.7413789
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -164,7 +164,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: playerSpeed
-    m_EventTreshold: 10
+    m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4387107438201952279}
   m_Solo: 0
@@ -174,7 +174,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.084848404
   m_TransitionOffset: 0
   m_ExitTime: 0.9327354
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -287,7 +287,7 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 0.9327354
   m_HasExitTime: 0
-  m_HasFixedDuration: 1
+  m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -362,7 +362,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: playerSpeed
-    m_EventTreshold: 12
+    m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4387107438201952279}
   m_Solo: 0
@@ -372,7 +372,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25914302
   m_TransitionOffset: 0
   m_ExitTime: 0.7413793
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -387,7 +387,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: playerSpeed
-    m_EventTreshold: 12
+    m_EventTreshold: 10
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6411847619729145545}
   m_Solo: 0
@@ -397,7 +397,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.0787878
   m_TransitionOffset: 0
   m_ExitTime: 0.9327354
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
